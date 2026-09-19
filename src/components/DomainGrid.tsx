@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { HeartPulse, Scale, Mic, Cloud } from "lucide-react";
+import { HeartPulse, Scale, Mic, Cloud, Building, Activity } from "lucide-react";
 
 const domains = [
   {
@@ -31,6 +31,20 @@ const domains = [
     description: "Complex recurring subscription billing (Stripe, Razorpay), cloud provider provisioning pipelines (AWS/Azure/GCP), marketplace architectures, and high-concurrency microservices.",
     color: "group-hover:text-[#6366F1]",
     bg: "group-hover:bg-[#6366F1]/10",
+  },
+  {
+    title: "PropTech & Real Estate",
+    icon: Building,
+    description: "Interactive geospatial map search, instant buyer-seller messaging over WebSockets, scheduling workflows, and virtual tours.",
+    color: "group-hover:text-amber-500",
+    bg: "group-hover:bg-amber-500/10",
+  },
+  {
+    title: "Developer Tooling & QA Observability",
+    icon: Activity,
+    description: "Distributed microservices, automated AI experiment pipelines, real-time team collaboration, and live Grafana observability dashboards.",
+    color: "group-hover:text-purple-500",
+    bg: "group-hover:bg-purple-500/10",
   }
 ];
 
@@ -42,7 +56,7 @@ export default function DomainGrid() {
         <p className="text-slate-400 max-w-2xl mx-auto">Deep vertical expertise combined with modern software architecture to solve complex industry-specific problems.</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {domains.map((domain, index) => (
           <motion.div
             key={index}
