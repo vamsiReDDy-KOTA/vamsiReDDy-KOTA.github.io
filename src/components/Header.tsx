@@ -27,15 +27,6 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-
-        <div className="hidden md:block">
-          <Link 
-            href="#contact"
-            className="inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-[#10B981] hover:bg-[#059669] text-white text-sm font-semibold transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(16,185,129,0.3)]"
-          >
-            Schedule Strategy Call
-          </Link>
-        </div>
       </div>
     </motion.header>
   );
