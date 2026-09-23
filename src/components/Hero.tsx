@@ -6,8 +6,9 @@ import Link from "next/link";
 
 const techStack = [
   "Python", "FastAPI", "Next.js", "React", "NestJS", 
-  "LangGraph", "Model Context Protocol (MCP)", "Neo4j", 
-  "Qdrant", "Twilio Voice", "AWS", "Google Cloud", "Docker"
+  "LangChain", "LangGraph", "RAG", "Model Context Protocol (MCP)", 
+  "Neo4j", "Qdrant", "ETL", "Twilio Voice", "WebSockets",
+  "AWS", "Google Cloud", "Docker", "Grafana"
 ];
 
 export default function Hero() {
