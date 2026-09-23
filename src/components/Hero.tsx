@@ -8,7 +8,8 @@ const techStack = [
   "Python", "FastAPI", "Next.js", "React", "NestJS", 
   "LangChain", "LangGraph", "RAG", "Model Context Protocol (MCP)", 
   "Neo4j", "Qdrant", "ETL", "Twilio Voice", "WebSockets",
-  "AWS", "Google Cloud", "Docker", "Grafana"
+  "AWS", "Google Cloud", "Docker", "Kubernetes", "Terraform",
+  "CI/CD", "GitHub Actions", "Grafana"
 ];
 
 export default function Hero() {
