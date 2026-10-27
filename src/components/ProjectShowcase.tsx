@@ -35,8 +35,8 @@ const categories = [
     projects: [
       {
         title: "ASP-RCM — Enterprise Healthcare Revenue Cycle Platform",
-        tech: ["Next.js", "NestJS", "Python", "FastAPI", "Google Cloud", "n8n", "ETL", "PostgreSQL", "MongoDB"],
-        highlights: "Managed full product lifecycle across the complete claims workflow (Eligibility → Prior Auth → Coding → Denials → Payment Posting); architected cloud ETL pipelines reconciling multi-EMR data; automated claim submissions via n8n; integrated AI for automated medical coding.",
+        tech: ["Next.js", "NestJS", "Python", "FastAPI", "Google Cloud", "n8n", "ETL", "Data Engineering", "PostgreSQL", "MongoDB"],
+        highlights: "Managed full product lifecycle across the complete claims workflow (Eligibility → Prior Auth → Coding → Denials → Payment Posting); designed and built cloud-based data engineering ETL pipelines on Google Cloud that consolidated and reconciled multi-EMR source data into unified datasets for downstream reporting; automated claim submissions via n8n; integrated AI for automated medical coding.",
       },
       {
         title: "Gaia — Maternal Health Platform",
