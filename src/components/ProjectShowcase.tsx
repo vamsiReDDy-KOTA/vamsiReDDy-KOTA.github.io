@@ -69,6 +69,21 @@ const categories = [
         highlights: "Interactive geospatial map search for property discovery; instant buyer-seller messaging over WebSockets; scheduling workflows for site visits; embedded virtual tour experiences.",
       }
     ]
+  },
+  {
+    name: "Data Engineering — Google Internal (via Innodata)",
+    projects: [
+      {
+        title: "Power Meter Metadata Pipeline — Google Data Centers",
+        tech: ["Python", "SQL (GoogleSQL)", "ETL", "pandas", "Entity Resolution", "Workflow Scheduling", "Dashboards", "Columnar Storage"],
+        highlights: "Built a Python/SQL metadata pipeline unifying tens of thousands of data-center power meters with facilities and power-topology data into a single daily-refreshed table. Implemented a multi-stage SQL entity-resolution layer associating meters with campus, building, sub-building, and region. Supported self-service dashboard for energy and capacity teams. Productionized across dev, test, and production with signed artifacts, least-privilege access controls, and supply-chain policy compliance.",
+      },
+      {
+        title: "Data Center Operations Analytics & Maintenance Newsletter — Google Internal",
+        tech: ["SQL", "Distributed Query Engine", "CMMS", "Workflow Orchestration", "Partitioned Tables", "BI Dashboards", "Automated Email Reporting"],
+        highlights: "Contributed to a maintenance analytics platform supporting ~60 Google campuses. Maintained SQL transformation workflows ingesting CMMS work-order data on a ~2-hour schedule to calculate KPIs — PM compliance, on-time completion, SLA/SLO adherence, maintenance backlog, technician utilization, and maintenance hours per megawatt. Delivered automated weekly and quarterly email newsletters with operational metrics. Resolved recurring workflow failures by rendering charts once per campus and limiting concurrency, enabling the workflow to complete reliably in a single run.",
+      }
+    ]
   }
 ];
 

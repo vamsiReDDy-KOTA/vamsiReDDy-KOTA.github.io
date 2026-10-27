@@ -5,11 +5,11 @@ import { ArrowRight, Terminal } from "lucide-react";
 import Link from "next/link";
 
 const techStack = [
-  "Python", "FastAPI", "Next.js", "React", "NestJS", 
-  "LangChain", "LangGraph", "RAG", "Model Context Protocol (MCP)", 
-  "Neo4j", "Qdrant", "ETL", "Twilio Voice", "WebSockets",
-  "AWS", "Google Cloud", "Docker", "Kubernetes",
-  "CI/CD", "GitHub Actions", "Grafana"
+  "Python", "FastAPI", "Next.js", "React", "NestJS",
+  "LangChain", "LangGraph", "RAG", "Model Context Protocol (MCP)",
+  "Neo4j", "Qdrant", "ETL", "pandas", "SQL (GoogleSQL)",
+  "Twilio Voice", "WebSockets", "AWS", "Google Cloud",
+  "Docker", "Kubernetes", "CI/CD", "GitHub Actions", "Grafana"
 ];
 
 export default function Hero() {
@@ -25,7 +25,7 @@ export default function Hero() {
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#6366F1] opacity-75"></span>
           <span className="relative inline-flex rounded-full h-2 w-2 bg-[#6366F1]"></span>
         </span>
-        AVAILABLE FOR HIGH-IMPACT FREELANCE & MVP ARCHITECTURE CONTRACTS
+        4.5+ YEARS OF PRODUCTION EXPERIENCE · AVAILABLE FOR HIGH-IMPACT CONTRACTS
       </motion.div>
 
       <motion.h1 
@@ -34,7 +34,7 @@ export default function Hero() {
         transition={{ delay: 0.2, duration: 0.5 }}
         className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-tight max-w-5xl"
       >
-        Engineering Scalable Multi-Tenant Platforms, <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#10B981] to-[#6366F1]">Voice AI & Production GraphRAG.</span>
+        Full-Stack AI Engineer & Data Engineer — From <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#10B981] to-[#6366F1]">Google-Scale Pipelines to Production Voice AI.</span>
       </motion.h1>
 
       <motion.p 
@@ -43,7 +43,7 @@ export default function Hero() {
         transition={{ delay: 0.3, duration: 0.5 }}
         className="text-lg md:text-xl text-slate-400 max-w-3xl mb-12 leading-relaxed"
       >
-        Senior Full-Stack & AI Engineer pairing 4+ years of cross-domain software delivery with cutting-edge agentic workflows. Specializing in low-latency voice, intelligent document processing, and cloud-native microservices.
+        Senior Full-Stack & AI Engineer with 4.5+ years shipping production systems across HealthTech, LegalTech, PropTech, Voice AI, and enterprise data engineering at Google. I build end-to-end solutions — from large-scale Python/SQL data pipelines and GraphRAG knowledge systems to sub-second latency voice agents and multi-tenant SaaS platforms on AWS & GCP.
       </motion.p>
 
       <motion.div 
