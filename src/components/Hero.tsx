@@ -34,7 +34,7 @@ export default function Hero() {
         transition={{ delay: 0.2, duration: 0.5 }}
         className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-tight max-w-5xl"
       >
-        Full-Stack AI Engineer & Data Engineer — From <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#10B981] to-[#6366F1]">Google-Scale Pipelines to Production Voice AI.</span>
+        Full-Stack AI Engineer & Data Engineer — From <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#10B981] to-[#6366F1]">Enterprise-Scale Data Pipelines to Production Voice AI.</span>
       </motion.h1>
 
       <motion.p 
@@ -43,7 +43,7 @@ export default function Hero() {
         transition={{ delay: 0.3, duration: 0.5 }}
         className="text-lg md:text-xl text-slate-400 max-w-3xl mb-12 leading-relaxed"
       >
-        Senior Full-Stack & AI Engineer with 4.5+ years shipping production systems across HealthTech, LegalTech, PropTech, Voice AI, and enterprise data engineering at Google. I build end-to-end solutions — from large-scale Python/SQL data pipelines and GraphRAG knowledge systems to sub-second latency voice agents and multi-tenant SaaS platforms on AWS & GCP.
+        Senior Full-Stack & AI Engineer with 4.5+ years shipping production systems across HealthTech, LegalTech, PropTech, Voice AI, and enterprise data engineering. I build end-to-end solutions — from large-scale Python/SQL data pipelines and GraphRAG knowledge systems to sub-second latency voice agents and multi-tenant SaaS platforms on AWS & GCP.
       </motion.p>
 
       <motion.div 
